@@ -2,12 +2,12 @@
 uri: amanas.github.io
 url: https://amanas.github.io
 name: Andrés Mañas
-title: amanas blog a notes 
-email: andresmanasmanas@gmail.com
+title: amanas blog and notes 
+email: 
 author: amanas
 baseurl: ""
 keywords: "Maths, Data, Algorithms"
-description: "A place to share thoughts (and mistakes)"
+description: "Here are some thoughts (and mistakes)"
 social_username: amanas
 
 # Build settings ...
