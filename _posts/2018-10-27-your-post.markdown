@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Your Post"
+date: 2018-10-27T00:19:18+02:00
+author: dikiaap
+sitemap: false
+keywords: ""
+description: ""
+---
+
+<!--more-->
