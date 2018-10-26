@@ -2,10 +2,12 @@
 layout: post
 title: "Your Post"
 date: 2018-10-27T00:19:18+02:00
-author: dikiaap
+author: amanas
 sitemap: false
 keywords: ""
 description: ""
 ---
 
-<!--more-->
+# A first post
+
+TODO: add some content
