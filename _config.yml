@@ -1,14 +1,14 @@
 # Site settings ...
-uri: domain.com
-url: https://domain.com
-name: Your name
-title: Mangan Jekyll Theme
-email: example@domain.com
-author: username
+uri: amanas.github.io
+url: https://amanas.github.io
+name: Andrés Mañas
+title: amanas blog a notes 
+email: andresmanasmanas@gmail.com
+author: amanas
 baseurl: ""
-keywords: "Your, Keyword, Here"
-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione nihil, velit odio quia autem quos. Natus itaque sint, nisi fuga dolorum. Iste ea cumque, aliquam dignissimos vitae labore atque minima?"
-social_username: username
+keywords: "Maths, Data, Algorithms"
+description: "A place to share thoughts (and mistakes)"
+social_username: amanas
 
 # Build settings ...
 sass:
