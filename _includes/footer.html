@@ -1,8 +1,10 @@
-
-  <footer class="site-footer">
-    <div class="wrapper-fit">
-      <div class="footer-text">
-        &copy; 2018 {{ site.name }}
-      </div>
+<footer class="site-footer">
+  <div class="wrapper-fit">
+    <div class="footer-text" style="float: left; width: auto">
+      &copy; 2018 {{ site.name }}
     </div>
-  </footer>
+    <div class="footer-text" style="float: right; width: auto">
+      {% include nav.html %}
+    </div>
+  </div>
+</footer>

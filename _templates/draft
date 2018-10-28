@@ -1,9 +1,9 @@
 ---
-layout: {{ layout }}
-title: "{{ title }}"
-date: {{ date }}
-author: dikiaap
-sitemap: false
-keywords: ""
+layout:      {{ layout }}
+title:       "{{ title }}"
+date:        {{ date }}
+author:      amanas
+sitemap:     false
+keywords:    ""
 description: ""
 ---

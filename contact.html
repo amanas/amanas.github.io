@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<div class="home">
+  <div class="content-col-wrapper">
+
+    <div class="content-col">
+      <div class="dummy">
+
+        <form id="formaction" method="POST">
+          <input type="hidden" name="_next" value="/thanks" />
+          <input type="text" name="_gotcha" style="display:none" />
+
+          <input id="name" name="name" placeholder="Name" type="text">
+          <br />
+          <br />
+          <input id="_replyto" name="_replyto" placeholder="Email" type="email">
+          <br />
+          <br />
+          <textarea id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+          <br />
+          <br />
+          <a id="sendLink" href="#">Send</a>
+        </form>
+        <script>
+          var contactform = document.getElementById('formaction');
+          contactform.setAttribute('action', '//formspree.io/' + 'andresmanasmanas' + '@' + 'gmail' + '.' + 'com');
+          document.getElementById("sendLink").onclick = function() {
+            contactform.submit();
+          }
+        </script>
+      </div>
+    </div>
+  </div>
+</div>

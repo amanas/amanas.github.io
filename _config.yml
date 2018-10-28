@@ -1,23 +1,23 @@
 # Site settings ...
-uri: amanas.github.io
-url: https://amanas.github.io
-name: Andrés Mañas
-title: amanas blog and notes 
-email: 
-author: amanas
-baseurl: ""
-keywords: "Maths, Data, Algorithms"
-description: "Many thoughts (and some mistakes)"
+uri:             amanas.github.io
+url:             https://amanas.github.io
+name:            Andrés Mañas
+title:           Andrés Mañas home site
+email:
+author:          amanas
+baseurl:         ""
+keywords:        "Andrés Mañas Home Site amanas Maths Data Algorithms"
+description:     "Andrés Mañas home site. A place with notes, thought and mistakes about data, maths and algorithms"
 social_username: amanas
 
 # Build settings ...
 sass:
-  style: compressed
-markdown: kramdown
-encoding: "utf-8"
-paginate: 5
-permalink: /post/:title
-paginate_path: "/page/:num/"
+  style:         compressed
+markdown:        kramdown
+encoding:        "utf-8"
+paginate:        10
+permalink:       /post/:title
+paginate_path:   "/page/:num/"
 
 # Plugins ...
 plugins:

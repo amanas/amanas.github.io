@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Installation Mangan Jekyll Theme"
+title: "Mangan Theme Installation"
 date: 2017-03-10 19:09:40 +0700
-author: username
+author: dikiaap
 sitemap: false
-keywords: "Installation Mangan Jekyll Theme"
-description: "Installation Mangan Jekyll Theme"
+keywords: "Mangan Theme Installation"
+description: "Mangan Theme Installation"
 ---
 # Mangan
 

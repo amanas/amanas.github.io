@@ -6,10 +6,11 @@
 ![Mangan Jekyll Theme](https://i.imgur.com/dgzKZlq.png)
 
 ## Requirements
-- Ruby >= 2.3
-- [RubyGems](https://rubygems.org/pages/download)
-- Linux, Unix, or Mac OS X
-- Git
+
+-   Ruby >= 2.3
+-   [RubyGems](https://rubygems.org/pages/download)
+-   Linux, Unix, or Mac OS X
+-   Git
 
 ## Install
 
@@ -40,16 +41,16 @@ Visit your website now and custom what you want! :sparkles:
 
 ## What's in there?
 
- * Beauty, minify, and little awesome code
- * Emoji support
- * Geek theme
- * Instagram view
- * Pagination
- * SEO directly used
- * Speed up
- * Unique and secret fun in code and webview
- * URI
- * More!
+-   Beauty, minify, and little awesome code
+-   Emoji support
+-   Geek theme
+-   Instagram view
+-   Pagination
+-   SEO directly used
+-   Speed up
+-   Unique and secret fun in code and webview
+-   URI
+-   More!
 
 ## Demo
 

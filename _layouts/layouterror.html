@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-  <!--
+<!--
                 _____________________
                 |###################|
                 |###################|
@@ -27,13 +27,16 @@
           /   |  \                /  |  \
          /.-./.-.|               /.-.|.-.\
   -->
-  <body>
-{% include header.html %}
+
+<body>
+  {% include header.html %}
   <div class="page-content">
     <div class="wrapper-fit">
-{{ content }}
+      {{ content }}
     </div>
   </div>
   <script type="text/javascript" src="{{ "/js/min.js" | prepend: site.baseurl }}"></script>
- </body>
+  {% include analytics.html %}
+</body>
+
 </html>

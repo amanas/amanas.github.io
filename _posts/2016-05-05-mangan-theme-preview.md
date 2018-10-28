@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "Welcome"
+title: "Mangan Theme Preview"
 date: 2016-05-05 10:02:20 +0700
-author: username
+author: dikiaap
 sitemap: false
-keywords: "Welcome to Mangan"
-description: "Welcome to Mangan"
+keywords: "Mangan Theme Preview"
+description: "Mangan Theme Preview"
 ---
+
 <p align="center"><br><img src="https://i.imgur.com/dgzKZlq.png"><br><br></p>
 
 <p align="center"><strong>Mangan</strong></p>
 This is lead text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A sunt impedit eveniet quas quisquam, doloribus quibusdam ex, obcaecati enim voluptatibus, aliquid necessitatibus dolor cumque atque aperiam laboriosam id reprehenderit non?
 
-***
+* * *
 
 ## Heading
 
@@ -28,7 +29,7 @@ This is lead text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A s
 
 ###### HEADING 6
 
-***
+* * *
 
 ## List
 
@@ -44,16 +45,14 @@ This is lead text. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A s
     <li>Baz</li>
 </ol>
 
-***
+* * *
 
 ## Code
 
-```
-$ Hello
-$ World
-```
+    $ Hello
+    $ World
 
-***
+* * *
 
 ## Link
 
@@ -61,7 +60,7 @@ $ World
 
 <a href="mailto:{{ site.email }}"><b>example<span class="big bg">@</span>{{ site.uri }}</b></a>
 
-***
+* * *
 
 ## Blockquote
 
