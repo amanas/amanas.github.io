@@ -54,7 +54,7 @@ Visit your website now and custom what you want! :sparkles:
 
 ## Demo
 
-See demo [here](https://mangan.dikiaap.id).
+See demo [here](https://amanas.github.io).
 
 More features? you can visit [Jekyll Docs](https://jekyllrb.com/docs/home/).
 
