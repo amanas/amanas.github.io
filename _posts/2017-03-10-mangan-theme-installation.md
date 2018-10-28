@@ -3,7 +3,7 @@ layout: post
 title: "Mangan Theme Installation"
 date: 2017-03-10 19:09:40 +0700
 author: dikiaap
-sitemap: false
+sitemap: true
 keywords: "Mangan Theme Installation"
 description: "Mangan Theme Installation"
 ---

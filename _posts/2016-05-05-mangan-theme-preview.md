@@ -3,7 +3,7 @@ layout: post
 title: "Mangan Theme Preview"
 date: 2016-05-05 10:02:20 +0700
 author: dikiaap
-sitemap: false
+sitemap: true
 keywords: "Mangan Theme Preview"
 description: "Mangan Theme Preview"
 ---

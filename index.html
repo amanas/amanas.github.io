@@ -30,18 +30,19 @@ layout: default
         </ul>
       </div>
     </div>
-
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}">
-      <b><span class="big">Prev</span></b>
-    </a>
-    {% else %}
-    {% endif %}
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}">
-      <b><span class="big">Next</span></b>
-    </a>
-    {% else %}
-    {% endif %}
+    <div class="content-col">
+      {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}">
+        <b><span>Prev</span></b>
+      </a>
+      {% else %}
+      {% endif %}
+      {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}">
+        <b><span>Next</span></b>
+      </a>
+      {% else %}
+      {% endif %}
+    </div>
   </div>
 </div>
