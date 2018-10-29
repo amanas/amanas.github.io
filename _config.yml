@@ -24,5 +24,3 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
-
-highlighter: rouge  
