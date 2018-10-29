@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The art of SoTA"
-date: 2018-10-27T00:19:18+02:00
+date: 2018-10-29T00:19:18+02:00
 subtitle: "How to write the State of The Art of a research"
 author: amanas
 sitemap: true
