@@ -18,6 +18,9 @@ encoding:        "utf-8"
 paginate:        10
 permalink:       /post/:title
 paginate_path:   "/page/:num/"
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Plugins ...
 plugins:
@@ -25,4 +28,3 @@ plugins:
   - jekyll-sitemap
   - jemoji
   
-highlighter: pygments
