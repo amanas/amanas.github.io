@@ -92,7 +92,8 @@ data.sum %>% select(title, year, cited, freq) %>% head %>% kable
 
 > Sort according to your own criteria. It could be interesting to select recent stuff, cited many times.
 
-### Step 2: weight
+Step 3: weight
+--------------
 
 We can even add a weight:
 
