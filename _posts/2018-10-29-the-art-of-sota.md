@@ -11,20 +11,21 @@ meta: ""
 ---
 
 
-State of The Art
-================
+Intro
+-----
+
+Currently, I am starting to write my MSc. Thesis. The research is about forecasting the flow traffic in the city of Madrid.
 
 When you start a research, tipically the first step is to review the **"State of The Art"**.
 
-Benefits
---------
+Benefits:
 
 -   it demonstrates the novelty of your research results
 -   you learn about your research problem
 -   it shows different approaches to a solution
 -   you can reuse from what others have done
 
-Currently, I am starting to write my MSc. Thesis. The research is about forecasting the flow traffic in the city of Madrid. In order to elaborate the SoTA, I have proceed as follows.
+In order to elaborate the SoTA, I have proceed as follows.
 
 Step 1: search related terms
 ----------------------------
@@ -42,7 +43,7 @@ Choose many search terms and find related publications on [Google scholar](https
 
 For each result, choose 10 results (those that most attract you) and put all of them into a single csv document. Do not worry if some are picked several times:
 
-``` r
+``` python
 library(knitr)
 library(dplyr)
 
