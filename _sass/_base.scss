@@ -103,6 +103,19 @@ h6 {
 /**
  * Links
  */
+.wrapper-fit a {
+  color: $wrapper-fit-link-color;
+  text-decoration: none;
+}
+.wrapper-fit a:visited {
+    color: $wrapper-fit-link-visited-color;
+}
+
+.wrapper-fit a:hover {
+    color: $wrapper-fit-link-hover-color;
+    text-decoration: none;
+}
+
 a, .site-nav a, .post-next a, .post-prev a{
   color: $link-color;
   text-decoration: none;
@@ -117,18 +130,7 @@ a, .site-nav a, .post-next a, .post-prev a{
   }
 }
 
-.wrapper-fit a {
-  color: $wrapper-fit-link-color;
-  text-decoration: none;
-}
-.wrapper-fit a:visited {
-    color: $wrapper-fit-link-visited-color;
-}
 
-.wrapper-fit a:hover {
-    color: $wrapper-fit-link-hover-color;
-    text-decoration: none;
-}
 
 hr {
   margin: 40px 65% 40px 0;
