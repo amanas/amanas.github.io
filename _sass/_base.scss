@@ -120,15 +120,14 @@ a {
 .wrapper-fit a {
   color: $wrapper-fit-link-color;
   text-decoration: none;
-
-  &:visited {
+}
+.wrapper-fit a:visited {
     color: $wrapper-fit-link-visited-color;
-  }
+}
 
-  &:hover {
+.wrapper-fit a:hover {
     color: $wrapper-fit-link-hover-color;
     text-decoration: none;
-  }
 }
 
 hr {
