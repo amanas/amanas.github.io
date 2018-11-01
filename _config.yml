@@ -33,5 +33,5 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
-  - jekyll-compose
-  - jekyll/tagging
+  # - jekyll-compose
+  # - jekyll/tagging
