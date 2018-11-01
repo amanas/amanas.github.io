@@ -1,25 +1,15 @@
 ---
 layout: default
 ---
+
 <div class="home">
   <div class="content-col-wrapper">
 
     <div class="content-col">
-      <div class="dummy">
-        ♨ <b><span class="big">Fun pict ... </span></b>
-        <div class="photos">
-          <a href="/" class="p0 photo">
-            <img alt="ig_1" src="/images/ig_1.jpg">
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="content-col">
       <div class="dummy blogpost">
-        ✍ <b><span class="big">Writings ...</span></b>
+        ✍ <b><span class="big">{{ page.tag }} ... </span></b>
         <ul class="post-list">
-          {% for post in paginator.posts %}
+          {% for post in page.posts %}
           <li class="titlepost">
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </li>
@@ -34,26 +24,11 @@ layout: default
     <div class="content-col">
       <div class="dummy blogpost">
         🏷️ <b><span class="big">Tags ... </span></b>
-        <br/>
+        <br />
         <span class=" datepost post-meta">
           {{ site | tag_cloud  }}
         </span>
       </div>
-    </div>
-
-    <div class="content-col">
-      {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}">
-        <b><span>Prev</span></b>
-      </a>
-      {% else %}
-      {% endif %}
-      {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}">
-        <b><span>Next</span></b>
-      </a>
-      {% else %}
-      {% endif %}
     </div>
   </div>
 </div>

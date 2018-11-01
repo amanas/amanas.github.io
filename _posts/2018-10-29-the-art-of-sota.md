@@ -8,6 +8,7 @@ sitemap: true
 keywords: "Research State Art"
 description: "How to write the State of The Art of a research"
 meta: ""
+tags: [SoTA, research]
 ---
 
 
@@ -67,10 +68,10 @@ Now we can sort by year, cited and times we selected it:
 
 ``` r
 data.sum <- data %>% group_by(url) %>%
-  summarise(title = first(title), year = first(year), 
+  summarise(title = first(title), year = first(year),
             cited = first(cited), freq = length(url)) %>%
-  arrange(desc(freq), desc(year), desc(cited)) 
-  
+  arrange(desc(freq), desc(year), desc(cited))
+
 data.sum %>% head %>% kable
 ```
 
@@ -92,7 +93,7 @@ We can even add a weight:
 
 ``` r
 data.sum %>%
-  mutate(W = (cited + (2018 - year)) * freq) %>% 
+  mutate(W = (cited + (2018 - year)) * freq) %>%
   arrange(desc(W)) %>% kable
 ```
 

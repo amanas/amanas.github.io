@@ -11,6 +11,10 @@ layout: layout
     {% if page.meta %}
     {{ page.meta }}
     {% endif %}
+    <br />
+    <small>
+      {{ page | tags  }}
+    </small>
   </div>
   <div class="post-line"></div>
 </header>
