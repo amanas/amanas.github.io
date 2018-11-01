@@ -9,7 +9,7 @@ layout: default
       <div class="dummy blogpost">
         ✍ <b><span class="big">{{ page.tag }} ... </span></b>
         <ul class="post-list">
-          {% for post in page.posts %}
+          {% for post in site.tags[page.tag] %}
           <li class="titlepost">
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </li>
@@ -26,7 +26,7 @@ layout: default
         🏷️ <b><span class="big">Tags ... </span></b>
         <br />
         <span class=" datepost post-meta">
-          {{ site | tag_cloud  }}
+          {% include archive.html %}
         </span>
       </div>
     </div>

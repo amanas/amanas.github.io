@@ -12,9 +12,15 @@ layout: layout
     {{ page.meta }}
     {% endif %}
     <br />
-    <small>
+    <span>[
+      {% for tag in page.tags %}
+      {% capture tag_name %}{{ tag }}{% endcapture %}
+      <a href="/tag/{{ tag_name }}">{{ tag_name }}&nbsp;</a>
+      {% endfor %}
+      ]</span>
+    <!-- <small>
       {{ page | tags  }}
-    </small>
+    </small> -->
   </div>
   <div class="post-line"></div>
 </header>

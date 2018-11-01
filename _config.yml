@@ -19,13 +19,8 @@ paginate:        10
 permalink:       /:title
 paginate_path:   "/page/:num/"
 highlighter:     rouge
-permalink: pretty
+permalink:       pretty
 
-tag_permalink_style: pretty
-tag_page_layout: tag_page
-tag_page_dir: tag
-tag_feed_layout: tag_feed
-tag_feed_dir: tag
 
 
 # Plugins ...
@@ -34,4 +29,3 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-compose
-  - jekyll/tagging

@@ -14,5 +14,4 @@ gem 'jemoji'
 
 group :jekyll_plugins do
   gem 'jekyll-compose'
-  gem 'jekyll-tagging'
 end
