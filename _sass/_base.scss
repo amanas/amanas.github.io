@@ -108,11 +108,25 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: $link-visited-color;
+    color: $link-color;
   }
 
   &:hover {
     color: $link-hover-color;
+    text-decoration: none;
+  }
+}
+
+.wrapper-fit a {
+  color: $wrapper-fit-link-color;
+  text-decoration: none;
+
+  &:visited {
+    color: $wrapper-fit-link-visited-color;
+  }
+
+  &:hover {
+    color: $wrapper-fit-link-hover-color;
     text-decoration: none;
   }
 }
