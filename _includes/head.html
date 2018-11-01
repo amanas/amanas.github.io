@@ -1,5 +1,12 @@
 <head>
   {% include analytics.html %}
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KBKC63V');</script>
+  <!-- End Google Tag Manager -->
   <meta charset="UTF-8">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,5 +38,5 @@
   <link href="/favicon.png" rel="icon">
   <link href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" rel="canonical">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="stylesheet" href="/css/monokai.css" type="text/css"> 
+  <link rel="stylesheet" href="/css/monokai.css" type="text/css">
 </head>
