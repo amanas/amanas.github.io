@@ -1,9 +1,13 @@
 ---
 layout:      {{ layout }}
 title:       "{{ title }}"
+subtitle:    "{{ subtitle }}"
 date:        {{ date }}
 author:      amanas
 sitemap:     true
-keywords:    ""
-description: ""
+keywords:    {{ keywords }}
+description: {{ description }}
+meta:        {{ meta }}
+tags:        {{ tags}}
+categories:  {{ categories}}
 ---

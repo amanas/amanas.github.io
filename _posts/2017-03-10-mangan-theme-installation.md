@@ -6,7 +6,8 @@ author: dikiaap
 sitemap: true
 keywords: "Mangan Theme Installation"
 description: "Mangan Theme Installation"
-tags: [jekyll]
+tags: [technology]
+categories:  [technology]
 ---
 # Mangan
 

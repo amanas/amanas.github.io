@@ -16,7 +16,7 @@ sass:
 markdown:        kramdown
 encoding:        "utf-8"
 paginate:        10
-permalink:       /:title
+permalink:       /:categories/:title
 paginate_path:   "/page/:num/"
 highlighter:     rouge
 
