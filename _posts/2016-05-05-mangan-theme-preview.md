@@ -6,7 +6,7 @@ author: dikiaap
 sitemap: true
 keywords: "Mangan Theme Preview"
 description: "Mangan Theme Preview"
-tags: [technology]
+tags: [technology, jekyll]
 categories:  [technology]
 ---
 
