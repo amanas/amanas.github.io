@@ -7,7 +7,7 @@ email:
 author:          amanas
 baseurl:         ""
 keywords:        "Andrés Mañas Home Site amanas Maths Data Algorithms"
-description:     "Andrés Mañas home site. A place with notes, thought and mistakes about data, maths and algorithms"
+description:     "Andrés Mañas home site. A place with notes, thoughts and mistakes about data, maths and algorithms"
 social_username: amanas
 
 # Build settings ...
