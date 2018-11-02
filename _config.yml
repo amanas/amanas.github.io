@@ -26,4 +26,3 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-compose
-  - jekyll-scholar
