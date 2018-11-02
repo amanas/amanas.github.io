@@ -20,12 +20,10 @@ permalink:       /:categories/:title
 paginate_path:   "/page/:num/"
 highlighter:     rouge
 
-exclude:
-  - data
-
 # Plugins ...
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
   - jekyll-compose
+  - jekyll-scholar
