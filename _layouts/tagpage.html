@@ -8,6 +8,7 @@ layout: default
     <div class="content-col">
       <div class="dummy blogpost">
         ✍ <b><span class="big">{{ page.tag }} ... </span></b>
+      </div>
         <ul class="post-list">
           {% for post in site.tags[page.tag] %}
           <li class="titlepost">
@@ -21,17 +22,15 @@ layout: default
           </li>
           {% endfor %}
         </ul>
-      </div>
     </div>
 
     <div class="content-col">
       <div class="dummy blogpost">
         🏷️ <b><span class="big">Tags ... </span></b>
-        <br />
+      </div>
         <span class=" datepost post-meta">
           {% include archive.html %}
         </span>
-      </div>
     </div>
   </div>
 </div>
